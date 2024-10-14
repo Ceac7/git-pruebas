@@ -18,20 +18,43 @@
 
 <body>
     <header>
-        <img src="https://via.placeholder.com/150" alt="">
+        <h1>Bienvenido a la Web</h1>
+
+
+
+
+    </header>
+
+    <header>
+        <img src="img/Captura de pantalla 2024-09-14 234416.png" alt="imagen">
         <nav>
             <ul>
                 <li><a href="#">inicio</a></li>
                 <li><a href="#">producto</a></li>
-                <li><a href="#">contacto</a></li>
+                <li><a href="pages/contacto.html">contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section>
-            <h2>bienvenido a la web</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni excepturi soluta nulla possimus repellat aut quis odio harum tenetur deserunt.</p>
+            <h2>Vamos a comenzar con las listas</h2>
+             <ul>
+                <li>Primero</li>
+                    <ol>
+                        <li>Esto es una lista con números</li>
+                            <ul>
+                                <li>Hemos vuelto a la lista con punto</li>
+                                <li>Otra lista con punto</li>
+                            </ul>
+                        <li>Esto es otra lista con números</li>
+                        <li>Esta es la tercera lista con números</li>
+                    </ol>
+                    
+                <li>Segundo</li>
+                <li>Tercero</li>
+             </ul>
+             <h3>Esto es una imagen placeholder de 350</h3>
             <img src="https://via.placeholder.com/350" alt="">
         </section>
 
@@ -40,23 +63,90 @@
             
             <article>
                 <img src="https://via.placeholder.com/180" alt="">
-                <h3>producto 1</h3>
-                <p>esto es un parrafo del producto</p>
-                <button>al carrito</button>
+                <h3>Producto 1</h3>
+                <p>Esto es un ejemplo con una imagen placeholder, del primer producto. </p>
+                <button>Añadir al carrito</button>
             </article>
-            
+            <br>
             <article>
                 <img src="https://via.placeholder.com/180" alt="">
-                <h3>producto 1</h3>
-                <p>esto es un parrafo del producto</p>
-                <button>al carrito</button>
+                <h3>producto 2</h3>
+                <p>Esto es otro ejemplo con una imagen placeholder, del segundo producto.</p>
+                <button>Añadir al carrito</button>
             </article>
-
         </section>
+        <br>
+         <h3>Esto es un formulario</h3>
+        <form>
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Juan Perez">
+            </div>
+
+            <div>
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" placeholder="*********">
+            </div>
+
+            <div>
+                <label for="age">Edad</label>
+                <input type="number" id="age">
+            </div>
+            
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+
+            <div>
+                <p>País:</p><label for="argentina">Argentina</label>
+                <input type="radio" id="Argentina" name="País">
+
+                <label for="otro">Otro</label>
+                <input type="radio" id="otro" name="País">
+            </div>
+
+            <div>
+                <label for="">Elegir jornada</label>
+
+                <select name="juego">
+                    <option value="">Mañana</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noche</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="">Aceptar Terminos y Condiciones</label>
+                <input type="checkbox" id="termino" required>
+            </div>
+
+            <button>Enviar</button>
+
+
+        </form>
+
+        <h3>Tablas</h3>
+         <table>
+            <tr>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <td>1hrs</td>
+                <td>3hrs</td>
+                <td>6hrs</td>
+                <td>9hrs</td>
+                <td>12hrs</td>
+            </tr>
+         </table>
     </main>
 
     <footer>
-        <p>practicando</p>
+        <p>Esto es el pie de Pagina </p>
     </footer>
 </body>
 </html>
